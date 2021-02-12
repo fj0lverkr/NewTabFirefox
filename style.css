@@ -1,3 +1,7 @@
+/** Some basic stuff, like setting up color classes etc. **/
+
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200;300;400;600&display=swap');
+
 :root {
   /* Polar Night */
   --nord0: #2e3440;
@@ -24,6 +28,7 @@
 html,
 body {
   height: 100%;
+  font-family: 'Source Sans Pro', sans-serif;
 }
 
 .nord0 {
@@ -160,4 +165,24 @@ ul {
 
 ul li {
   display: inline;
+}
+
+/** Override the ugly Bootstrap focused input effect **/ 
+.form-control:focus {
+  border-color: var(--nord0);
+  box-shadow: 0 0 0 0.2rem rgba(136, 192, 208, 0.15);
+} 
+
+/** Set specifics **/
+
+input {
+  font-weight: 200;
+}
+
+#date {
+  font-weight: 600;
+}
+
+#time {
+  font-weight: 400;
 }
