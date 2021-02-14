@@ -1,8 +1,6 @@
 $(document).ready(function () {
   // Housekeeping
   $('#google-search').val('');
-  $('#google-results-wrapper').hide();
-
 
   // Create two variable with the names of the months and days in an array
   const monthNames = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
@@ -42,14 +40,5 @@ $(document).ready(function () {
     $('#time').html(hours + " : " + minutes + " : " + seconds);
 
   }, 1000);
-
-  $('#google-search').on('input', function () {
-    if (this.value.length > 0) {
-      console.log(this.value);
-      $('#google-results-wrapper').show();
-    } else {
-      $('#google-results-wrapper').hide();
-    }
-  });
 
 });
