@@ -31,7 +31,7 @@ body {
 }
 
 body{
-  font-family: 'Source Sans Pro', sans-serif !important;
+  font-family: 'Source Sans Pro', sans-serif;
   background-color: var(--nord0);
 }
 
@@ -177,10 +177,33 @@ ul li {
   box-shadow: 0 0 0 0.2rem rgba(136, 192, 208, 0.15);
 } 
 
-/** Set specifics **/
+/** Override Google styling we weren't allowed to set in their console **/
+.gsc-results-wrapper-nooverlay,
+.gsc-results-wrapper-visible {
+  font-family: 'Source Sans Pro', sans-serif !important;
+}
 
+.gsc-tabsArea{
+  border-bottom: 1px solid var(--nord12) !important;
+  padding-bottom: 2px;
+}
+
+.gsc-above-wrapper-area{
+    border-bottom: 1px solid var(--nord12) !important;
+}
+
+.gsc-option-menu-container .gsc-inline-block,
+.gsc-option-menu,
+.gsc-option-menu .gsc-option-menu-item {
+    background-color: var(--nord10) !important;
+    color: var(--nord5) !important;
+    text-align: center;
+}
+
+/** Set specifics **/
 input {
-  font-weight: 200;
+  font-family: 'Source Sans Pro', sans-serif !important;
+  font-weight: 300;
 }
 
 #date {

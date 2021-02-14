@@ -41,4 +41,27 @@ $(document).ready(function () {
 
   }, 1000);
 
+  $(document).on('click', '.gsc-result a', function (e) {
+    let win = window.open($(this).attr('href'), '_blank');
+    if (win) {
+      win.focus();
+    } else {
+      console.log('failed to open new tab from search result.')
+    }
+
+    e.stopPropagation();
+    e.stopImmediatePropagation();
+    return false;
+  });
+
+  $(document).on('click', '.gsc-result', function (e) {
+    let win = window.open($(this).find('a').attr('href'), '_blank');
+    if (win) {
+      win.focus();
+    } else {
+      console.log('failed to open new tab from search result.')
+    }
+    e.stopPropagation();
+    e.stopImmediatePropagation();
+  });
 });
