@@ -206,6 +206,15 @@ input {
   font-weight: 300;
 }
 
+.nav-fav {
+  font-weight: 400;
+}
+
+.nav-fav:hover {
+  color: var(--nord11);
+  cursor: pointer;
+}
+
 #date {
   font-weight: 600;
 }

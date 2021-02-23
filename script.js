@@ -64,4 +64,29 @@ $(document).ready(function () {
     e.stopPropagation();
     e.stopImmediatePropagation();
   });
+
+  $('.nav-fav').each(function(){
+    $(this).on('click', function(){
+      let href = "https://";
+      console.log($(this).attr('id'));
+      switch($(this).attr('id')){
+        case "nav-yt":
+          href += "www.youtube.com";
+          break;
+        case "nav-fb":
+          href += "www.facebook.com";
+          break;
+        case "nav-ol":
+          href += "www.outlook.com";
+          break;
+        case "nav-rd":
+          href += "www.reddit.com/u/fj0lverkr";
+          break;
+        case "nav-gh":
+          href += "www.github.com/fj0lverkr";
+          break;
+      }
+      window.location.replace(href);
+    });
+  });
 });
