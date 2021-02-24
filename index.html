@@ -16,26 +16,30 @@
 
   <div class="container-fluid nord0 vh-100">
     <div class="row justify-content-center pt-5">
-      <div class="col-10 col-lg-6 mt-5 py-3 shadow rounded nord1">
-        <div class="container-fluid text-center">
+      <div class="col-10 col-xl-6 mt-5 py-3 okshadow rounded nord1">
+        <div class="container-fluid text-center d-none d-sm-block">
           <h1 class="display-3 text-nord10" id="date"></h1>
           <h1 class="display-5 text-nord11" id="time"></h1>
+        </div>
+        <div class="container-fluid text-center d-block d-sm-none">
+          <h1 class="display-3 text-nord10" id="date-sm"></h1>
+          <h1 class="display-5 text-nord11" id="time-sm"></h1>
         </div>
       </div>
     </div>
     <div class="row justify-content-center pt-4">
-      <div class="col-10 col-lg-6 py-3">
+      <div class="col-10 col-xl-6 py-3">
         <div class="row justify-content-between">
-          <div class="col-2 py-3 shadow rounded nord1 text-center nav-fav text-nord10" id="nav-yt"><i class="fab fa-youtube"></i> Youtube</div>
-          <div class="col-2 py-3 shadow rounded nord1 text-center nav-fav text-nord10" id="nav-fb"><i class="fab fa-facebook"></i> Facebook</div>
-          <div class="col-2 py-3 shadow rounded nord1 text-center nav-fav text-nord10" id="nav-ol"><i class="fas fa-envelope-square"></i> Outlook</div>
-          <div class="col-2 py-3 shadow rounded nord1 text-center nav-fav text-nord10" id="nav-rd"><i class="fab fa-reddit-square"></i> Reddit</div>
-          <div class="col-2 py-3 shadow rounded nord1 text-center nav-fav text-nord10" id="nav-gh"><i class="fab fa-github-square"></i> Github</div>
+          <div class="col-2 py-3 okshadow rounded nord1 text-center nav-fav text-nord10" id="nav-yt"><i class="fab fa-youtube"></i><span class="d-none d-md-inline"><br />Youtube</span></div>
+          <div class="col-2 py-3 okshadow rounded nord1 text-center nav-fav text-nord10" id="nav-fb"><i class="fab fa-facebook"></i><span class="d-none d-md-inline"><br />Facebook</span></div>
+          <div class="col-2 py-3 okshadow rounded nord1 text-center nav-fav text-nord10" id="nav-ol"><i class="fas fa-envelope-square"></i><span class="d-none d-md-inline"><br />Outlook</span></div>
+          <div class="col-2 py-3 okshadow rounded nord1 text-center nav-fav text-nord10" id="nav-rd"><i class="fab fa-reddit-square"></i><span class="d-none d-md-inline"><br />Reddit</span></div>
+          <div class="col-2 py-3 okshadow rounded nord1 text-center nav-fav text-nord10" id="nav-gh"><i class="fab fa-github-square"></i><span class="d-none d-md-inline"><br />Github</span></div>
         </div>
       </div>
     </div>
     <div class="row justify-content-center pt-4 mb-5">
-      <div class="col-10 col-lg-6 py-3 shadow rounded nord1" id="google-wrapper">
+      <div class="col-10 col-xl-6 py-3 okshadow rounded nord1" id="google-wrapper">
         <div class="gcse-search"></div>
       </div>
     </div>
@@ -48,7 +52,8 @@
     integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns"
     crossorigin="anonymous"></script>
   <script src="https://kit.fontawesome.com/e7e29266a1.js" crossorigin="anonymous"></script>
-  <script src="script.js"></script>
+  <script src="scripts/okshadow.min.js"></script>
+  <script src="scripts/main.js"></script>
 </body>
 
 </html>
