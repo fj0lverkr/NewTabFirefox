@@ -80,7 +80,7 @@ $(document).ready(function () {
           href += "www.outlook.com";
           break;
         case "nav-rd":
-          href += "www.reddit.com/u/fj0lverkr";
+          href += "www.reddit.com/u/fjolverkr";
           break;
         case "nav-gh":
           href += "www.github.com/fj0lverkr";
