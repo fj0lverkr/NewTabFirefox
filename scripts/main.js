@@ -24,7 +24,7 @@ $(document).ready(function () {
     $('#time').html(hours + " : " + minutes + " : " + seconds);
     $('#time-sm').html(hours + " : " + minutes + " : " + seconds);
   }
-  
+
   // Run the clock once
   castDayTime();
 
@@ -88,3 +88,29 @@ $(document).ready(function () {
     });
   });
 });
+
+// Custom cursor movement
+$(document).mousemove(function(e){
+  $('.cursor').eq(0).css({
+    left: e.clientX,
+    top: e.clientY
+  });
+  setTimeout(function() {
+    $('.cursor').eq(1).css({
+      left: e.clientX,
+      top: e.clientY
+    });
+  }, 100);
+  setTimeout(function() {
+    $('.cursor').eq(2).css({
+      left: e.clientX,
+      top: e.clientY
+    });
+  }, 250);
+  setTimeout(function() {
+    $('.cursor').eq(3).css({
+      left: e.clientX,
+      top: e.clientY
+    });
+  }, 400);
+})
