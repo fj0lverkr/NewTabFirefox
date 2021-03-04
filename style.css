@@ -3,6 +3,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200;300;400;600&display=swap');
 
 :root {
+  /** Nord colors **/
   /* Polar Night */
   --nord0: #2e3440;
   --nord1: #3b4252;
@@ -23,6 +24,7 @@
   --nord13: #ebcb8b;
   --nord14: #a3be8c;
   --nord15: #b48ead;
+
 }
 * {
   cursor: none !important;
