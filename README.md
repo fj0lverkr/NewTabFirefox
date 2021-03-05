@@ -9,6 +9,7 @@ This page uses my personal *Search engine ID*, which has **Safe Search disabled*
 
         <script async src="https://cse.google.com/cse.js?cx=Search_engine_ID"></script>
 5. The search should now appear and work correctly.
+6. Alternatively, you can remove the searchbar or use the index_manjaro.html file which has a different color scheme and no searchbar.
 
 **Note that leaving in my key does not give me access to your search results as I would have to have added Google Analytics in here as well (which, as you can see in the source, there isn't).**  
 But again, feel free to set up your own search engine as per the instructions above.
