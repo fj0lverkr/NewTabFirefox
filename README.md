@@ -18,5 +18,5 @@ To use this as your *New Tab* page
 
         var newTabURL = "file:///C:/path/to/index.html";
 2. Copy *Firefox Config/firefox.cfg* to the root directory of your Firefox installation.
-3. Copy *Firefox Config/defaults/prefautoconfig.js* to the same folder within the root directory of your Firefox installation (*/defaults/pref/* should already exist).
+3. Copy *Firefox Config/defaults/pref/autoconfig.js* to the same folder within the root directory of your Firefox installation (*/defaults/pref/* should already exist).
 4. Restart Firefox if it was already opened.
