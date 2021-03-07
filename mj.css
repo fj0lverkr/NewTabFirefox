@@ -1,6 +1,6 @@
 /** Some basic stuff, like setting up color classes etc. **/
 
-@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200;300;400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 
 :root {
   /** My Manjaro i3 colors **/
@@ -20,7 +20,7 @@ body {
 }
 
 body{
-  font-family: 'Source Sans Pro', sans-serif;
+  font-family: 'Noto Sans', sans-serif;
   background-color: var(--mj-bg);
 }
 
@@ -90,8 +90,8 @@ ul li {
 
 /** Set specifics **/
 input {
-  font-family: 'Source Sans Pro', sans-serif !important;
-  font-weight: 300;
+  font-family: 'Noto Sans', sans-serif !important;
+  font-weight: 400;
 }
 
 .nav-fav {
@@ -104,7 +104,7 @@ input {
 }
 
 #date {
-  font-weight: 600;
+  font-weight: 700;
 }
 
 #time {
